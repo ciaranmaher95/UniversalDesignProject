@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Oct-2017, 18:24:34
+    Author     : Dawn
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato',sans-serif;
+	font-weight: 300;
+    color: #666;
+    background-color: #fff;
+	font-size: 16px;
+    line-height: 1.6em;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#chooseFile
+{
+	display:none;
+	
+	
+}
+.Button
+{
+	background: #fc933c;
+  background-image: -webkit-linear-gradient(top, #fc933c, #4397cf);
+  background-image: -moz-linear-gradient(top, #fc933c, #4397cf);
+  background-image: -ms-linear-gradient(top, #fc933c, #4397cf);
+  background-image: -o-linear-gradient(top, #fc933c, #4397cf);
+  background-image: linear-gradient(to bottom, #fc933c, #4397cf);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.Button:hover
+{
+	 background: #3481d9;
+  background-image: -webkit-linear-gradient(top, #3481d9, #cf3838);
+  background-image: -moz-linear-gradient(top, #3481d9, #cf3838);
+  background-image: -ms-linear-gradient(top, #3481d9, #cf3838);
+  background-image: -o-linear-gradient(top, #3481d9, #cf3838);
+  background-image: linear-gradient(to bottom, #3481d9, #cf3838);
+  cursor:pointer;
+	text-decoration: none;
+}
+
+
+h3
+{
+	font-size: 23px;
+        text-decoration: blue;
+        width: 200px;
+        background: white;
+        border-color: grey;
+        padding: 5px;
+        margin: 0 auto;
+}
+
+.center {
+        margin: 0 auto;
+        width: 200px;
+        background: white;
+        border-color: grey;
+        padding: 10px;
+        color: black;
+       
+}
+
+#formDiv,label
+{
+	display: inline-block;
+}
+
+#formDiv label
+{
+	margin-bottom:10%; 
+}
+
+
+
+#formDiv h3
+{
+	margin-left:5%;
+}
+
+
+#image
+{
+	float: right;
+	width:75%;
+}
+
+#image img
+{
+	width:100%;
+	height:70%;
+}
+
+
+textarea
+{
+    margin: 0 auto;
+    color: blue;
+    width: 50px;
+    margin-bottom: 10px;
+}
+#text
+{
+    margin: 0 auto;
+    width: 200px;
+}
+
+#submit
+{
+    
+  background: #fc933c;
+  background-image: -webkit-linear-gradient(top, #fc933c, #4397cf);
+  background-image: -moz-linear-gradient(top, #fc933c, #4397cf);
+  background-image: -ms-linear-gradient(top, #fc933c, #4397cf);
+  background-image: -o-linear-gradient(top, #fc933c, #4397cf);
+  background-image: linear-gradient(to bottom, #fc933c, #4397cf);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+   
+  
+}
+
+#submit:hover 
+{
+  background: #3481d9;
+  background-image: -webkit-linear-gradient(top, #3481d9, #cf3838);
+  background-image: -moz-linear-gradient(top, #3481d9, #cf3838);
+  background-image: -ms-linear-gradient(top, #3481d9, #cf3838);
+  background-image: -o-linear-gradient(top, #3481d9, #cf3838);
+  background-image: linear-gradient(to bottom, #3481d9, #cf3838);
+  cursor:pointer;
+	text-decoration: none;
+}

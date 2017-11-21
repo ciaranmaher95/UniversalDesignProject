@@ -1,0 +1,159 @@
+body
+{
+	margin: 0;
+    padding: 0;
+    
+}
+
+#image1
+{
+	height: 100%;
+	width: 100%;
+	
+}
+
+#formDiv
+{
+	margin: auto;
+	position: absolute;
+    left: 25%;
+	bottom: 10%;
+    z-index:10;
+	width: 50%;
+	height: 80%;
+	background-color: lightyellow;
+	opacity: 0.9;
+}
+
+#sitename
+{
+	text-align: center;
+	font-size: xx-large;
+}
+
+#sitename h1
+{
+	color: red;
+}
+
+#signupdiv
+{
+	float: left;
+	
+}
+
+#signupform input
+{
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	margin-left: 40%;
+	width: 70%;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 20px;
+}
+
+#signupform input:hover
+{
+	width: 80%;
+	margin-left: 35%;
+}
+
+#check, #labels
+{
+	width:50%;
+	display:inline-block;
+	
+}
+
+#labels
+{
+	float: right;
+	margin-bottom: -10%;
+}
+
+#check
+{
+	margin-left: -5%;
+}
+
+#check input
+{
+	box-shadow:none;
+}
+
+#labels #am, #prof
+{
+	margin-left: -5%;
+	font-style: italic;
+	
+}
+
+#labels #am
+{
+	position:absolute;
+	
+}
+#labels #prof
+{
+	position:absolute;
+	margin-top:7%;
+}
+
+#signupform h2
+{
+	text-align: center;
+	margin-left: 40%;
+}
+
+#signupform button
+{
+	text-align: center;
+	margin-left: 40%;
+	margin-top: 30px;
+}
+
+#logindiv
+{
+	float: right;
+}
+
+#loginform input
+{
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	margin-right: 40%;
+	width: 70%;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 20px;
+}
+
+#loginform input:hover
+{
+	width: 80%;
+	margin-right: 35%;
+	margin-left: -5%;
+}
+
+#loginform h2 
+{
+	text-align: center;
+	margin-right: 40%;
+}
+
+#loginform button
+{
+	margin-top: 30px;
+	
+}
+
+
+#divider{
+    position:absolute;
+    left:50%;
+    top:25%;
+    bottom:10%;
+    border-left:1.5px solid black;
+}
+

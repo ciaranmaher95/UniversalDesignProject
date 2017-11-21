@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Feb-2017, 12:17:47
+    Author     : Sean
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+    
+    body {
+	
+	color: #fff;
+        height: 100%;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Lato', Arial, sans-serif;
+	margin-top: 100px;
+	padding:0;
+	padding-bottom:60px;
+}
+
+
+.wrapper
+{
+    background-color: white;
+    position: relative;
+    top: 20px;
+}
+.ccheader {
+        background: #f29107;
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+.ccheader {
+	margin: 0 auto;
+	padding: 7em;
+	text-align: center;
+}
+
+.ccheader h1 {
+	margin: 0;
+        margin-bottom: -100px;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h3 {
+    color: black;
+}
+
+#file{
+    color: black;
+}
+
+/* Form CSS*/
+#fname, #memberUsername, #firsticon
+{
+    margin-top: 20px;
+}
+
+
+#fname,#lname,#email,#username,#password,#dob,#memberUsername,#memberPassword
+{
+        height: 20px;
+}
+
+#submit
+{
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.ccform {
+   margin: 0 auto;
+    width: 800px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:#f8ae45; 
+	float:left;
+	padding:8px;
+	width:8%;
+	background:#FFFFFF;
+	text-align:center;	
+}
+
+.ccformfield {
+	color:#000000; 
+	background:#FFFFFF;
+	border-color: orange;
+	padding:15.5px;
+	width:91.9%;
+        height: 90%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:#f8ae45;
+	color:#FFFFFF;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background:#d8850e;
+}
